@@ -1,7 +1,7 @@
 const {Sequelize, DataTypes} = require('sequelize')
 
 
-const db = new Sequelize('logindb','be1b364a767d07','1137d8d6',{
+const db = new Sequelize('heroku_caadcb27275d663','be1b364a767d07','1137d8d6',{
     host:"us-cdbr-east-02.cleardb.com",
     dialect : 'mysql',
 
